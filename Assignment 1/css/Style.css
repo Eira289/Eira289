@@ -1,0 +1,88 @@
+		@font-face {
+		font-family: Writting;
+		src: url(Fonts/DancingScript-Regular.ttf); 
+		}
+		@font-face {
+		font-family: Normal;
+		src: url(Fonts/Quicksand-Regular.ttf);
+		}
+/*		Custom fonts adding */
+
+		.all {
+			margin-left: 20px;
+			margin-right: 20px;
+			text-align: center;
+		}
+		h1 {
+			font-family: Writting;
+			font-size: 70px;
+			color: #882d17;
+			margin-top: 10px;
+			margin-bottom: 10px;
+
+		}
+		h2 {
+			font-size: 20px;
+			background:#ffe4e1;
+			font-family:Normal;
+			color: #b94e48;
+			padding: 15px;
+			
+		}
+		.title {
+			font-size: 45px;
+			font-family:Garamond;
+			color: #b94e48;
+			font-weight: bolder;
+			padding: 0px;
+			border: 0px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		ul{
+			margin-left: 25px;
+/*For this part I don't know why I already margin the <div> ".all" to the 
+left but still need to margin the list seperately*/
+		}
+
+		.paragraph {
+			font-size: 20px;
+			font-family: Normal;
+			color: #882d17;
+			margin-top: 10px;
+			padding: 0px;
+			border: 0px;
+		}
+		#list{
+			text-align: center;
+			list-style-position: inside; 
+/*new one I figured out how to move the bullet points*/
+		}
+		#list2{
+			text-align: left;
+			list-style-position: inside;
+		}
+		ol > li::marker{
+  font-weight: bold;
+		}
+/*This make the number in the list bold*/
+		img {
+			width: 1500px;
+			display: block;
+			margin-left:0px;
+			margin: auto;
+		}
+		#img1{
+			width:600px;
+			display: inline-block;
+			float: right;
+
+		}
+		.instructions1{
+			display: inline-block;
+			float: left;
+
+		}
+
+
+		
