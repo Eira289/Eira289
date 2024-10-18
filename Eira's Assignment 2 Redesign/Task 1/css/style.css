@@ -1,0 +1,54 @@
+#logo {
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	display: inline-block;
+	float: left;
+}
+#numbers {
+	width: 300px;
+	display: inline-block;
+  	margin-left: 625px;
+ 	margin-right: auto;
+	text-align: center;
+}
+
+#scrollbar {
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	display: inline-block;
+	float: right;
+}
+#advertisement {
+	display: inline-block;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	
+	float: left;
+}
+#cart {
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	display: inline-block;
+	float: right;
+}
+#food1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#food2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+}
+
+body {
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
